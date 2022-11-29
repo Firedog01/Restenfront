@@ -15,6 +15,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/model/pom.xml" />
         <option value="$PROJECT_DIR$/module/pom.xml" />
       </set>
     </option>

@@ -9,13 +9,9 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.Matchers.*;
 
 import static io.restassured.RestAssured.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import pl.lodz.p.edu.rest.model.Address;
-import pl.lodz.p.edu.rest.model.DTO.RentDTO;
-import pl.lodz.p.edu.rest.model.DTO.users.AdminDTO;
-import pl.lodz.p.edu.rest.model.Equipment;
-import pl.lodz.p.edu.rest.model.users.Client;
+import pl.lodz.p.edu.data.model.DTO.RentDTO;
+import pl.lodz.p.edu.data.model.Equipment;
+import pl.lodz.p.edu.data.model.users.Client;
 import pl.lodz.p.edu.rest.repository.DataFaker;
 
 import java.util.UUID;

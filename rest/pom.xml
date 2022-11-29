@@ -68,9 +68,15 @@
 
 
         <dependency>
-            <groupId>pl.lodz.p.edu.model</groupId>
-            <artifactId>model</artifactId>
+            <groupId>pl.lodz.p.edu.data</groupId>
+            <artifactId>data</artifactId>
             <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>pl.lodz.p.edu.data</groupId>
+            <artifactId>data</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
